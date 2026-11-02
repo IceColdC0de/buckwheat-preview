@@ -1,4 +1,4 @@
-"""Shared prompt builder (design.md sections 4 and 5.5).
+"""Shared prompt builder.
 
 Providers differ only in transport; they all send what this module builds.
 Anything that came from a file or the filesystem (current values, shadowed

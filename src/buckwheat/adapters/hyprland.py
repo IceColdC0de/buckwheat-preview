@@ -1,4 +1,4 @@
-"""Hyprland adapter (design.md section 3.3).
+"""Hyprland adapter.
 
 Two config formats, chosen by detection (``uses_lua``):
 

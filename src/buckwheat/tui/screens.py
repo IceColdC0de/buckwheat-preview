@@ -50,7 +50,7 @@ def button_row(*buttons: Button) -> Horizontal:
 
 
 def describe_op(op: Op) -> str:
-    """One plain-language line for an op (design.md 5.2)."""
+    """One plain-language line for an op."""
     if isinstance(op, SetOp):
         return f"Set {op.key} to {op.value} in {op.target}"
     if isinstance(op, PaletteOp):
@@ -350,7 +350,7 @@ class PreviewScreen(Screen[None]):
 
 
 class CountdownScreen(Screen[None]):
-    """Keep-or-revert. Timing out reverts (design.md section 1)."""
+    """Keep-or-revert. Timing out reverts."""
 
     BINDINGS = [
         Binding("enter,k", "keep", "Keep"),
@@ -482,7 +482,7 @@ class CountdownScreen(Screen[None]):
 
 
 class BootstrapScreen(Screen[None]):
-    """Preview of an install or uninstall (design.md 0.1, 5.4).
+    """Preview of an install or uninstall.
 
     Nothing is written until the user confirms. In manual mode the exact lines
     to paste or remove are shown instead; buckwheat then only writes its own

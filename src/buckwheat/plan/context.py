@@ -1,4 +1,4 @@
-"""Planning context and validation problems (design.md sections 1 and 2.3)."""
+"""Planning context and validation problems."""
 
 from pydantic import BaseModel, ConfigDict, Field
 

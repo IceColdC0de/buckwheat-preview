@@ -1,4 +1,4 @@
-"""Wallpaper adapter for hyprpaper (design.md sections 3 and 3.5).
+"""Wallpaper adapter for hyprpaper.
 
 Persists the choice in ``~/.config/hypr/hyprpaper.conf`` only when that file is
 absent, empty, or already carries the managed header. A user-owned file is never

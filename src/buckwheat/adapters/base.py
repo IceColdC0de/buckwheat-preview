@@ -1,4 +1,4 @@
-"""Adapter protocol and shared helpers (design.md section 3).
+"""Adapter protocol and shared helpers.
 
 No concrete adapters live here. This module has the protocol, the data types
 adapters exchange with the session, a subprocess runner (plus a fake for
@@ -43,7 +43,7 @@ class KeySpec:
     max: float | None = None
     enum: tuple[str, ...] | None = None
     render: Callable[[Scalar], str] = str
-    since: str | None = None  # app version gating (design.md section 10)
+    since: str | None = None  # app version gating
     until: str | None = None
 
     def check(self, key: str, value: Scalar) -> list[Problem]:

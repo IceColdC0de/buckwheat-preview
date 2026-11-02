@@ -2,7 +2,7 @@
 
 The config file stores only the *name* of the environment variable that holds
 the API key, never the key itself. Any string value that looks like a key is
-rejected (design.md, section 4).
+rejected.
 """
 
 from __future__ import annotations

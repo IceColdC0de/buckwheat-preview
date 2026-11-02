@@ -1,4 +1,4 @@
-"""Session: the request flow of design.md section 1, with no UI imports.
+"""Session: the request flow, with no UI imports.
 
 ``propose`` has no side effects on the user's system: it reads state, asks the
 provider for a plan, validates it (all-or-nothing), renders the new file
@@ -117,7 +117,7 @@ class Proposal:
 
 @dataclass(frozen=True)
 class BootstrapProposal:
-    """An install or uninstall, ready to preview (design.md sections 0.1, 5.4).
+    """An install or uninstall, ready to preview.
 
     ``files``/``deletes`` are what ``apply_bootstrap`` would do; in manual
     mode they never include the user's own files, and ``instructions`` holds
@@ -455,7 +455,7 @@ class Session:
     ) -> Proposal:
         updates = self._state_updates(plan, states)
         # Targets that do not read buckwheat's file yet: set them up in the
-        # same change, or leave them out (design.md 0.1; manual mode, refusals).
+        # same change, or leave them out (manual mode, refusals).
         unset = [
             n
             for n in names
@@ -586,7 +586,7 @@ class Session:
             change.id, change.state, change.revert_deadline, not_showing=missing
         )
 
-    # --- bootstrap: install / uninstall (design.md sections 0.1, 3, 5.4) ---
+    # --- bootstrap: install / uninstall ---
 
     def bootstrap_status(self) -> dict[str, BootstrapStatus]:
         """Bootstrap status of every detected target that has an include step."""

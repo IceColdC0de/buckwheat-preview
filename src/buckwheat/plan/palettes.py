@@ -1,4 +1,4 @@
-"""Palette library: load and validate palette TOML files (docs/palettes.md)."""
+"""Palette library: load and validate palette TOML files."""
 
 import tomllib
 from importlib import resources

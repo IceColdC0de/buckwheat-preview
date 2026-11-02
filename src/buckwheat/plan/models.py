@@ -1,4 +1,4 @@
-"""ChangePlan schema (design.md section 2.2).
+"""ChangePlan schema.
 
 Everything is frozen and rejects unknown fields. Ops are a discriminated union
 on ``op``. Value rules beyond shape and length live in ``validators.py``.

@@ -1,4 +1,4 @@
-"""kitty adapter (design.md section 3.1).
+"""kitty adapter.
 
 Managed file ``buckwheat.conf`` is regenerated in full from the managed state
 overlaid with the plan's ops. ``kitty.conf`` only ever gets (or loses) the

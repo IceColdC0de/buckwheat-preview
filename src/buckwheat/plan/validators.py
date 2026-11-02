@@ -1,4 +1,4 @@
-"""Common value-layer validation (design.md section 2.3, layer 2).
+"""Common value-layer validation.
 
 ``validate_common`` checks string, font, colour and wallpaper-path rules that
 do not depend on a particular adapter. It never raises on bad plan content;

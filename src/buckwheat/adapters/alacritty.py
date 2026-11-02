@@ -1,4 +1,4 @@
-"""Alacritty adapter (design.md sections 3, 3.2 and 3.5).
+"""Alacritty adapter.
 
 Managed settings live in ``buckwheat.toml`` beside the ``alacritty.toml`` that
 alacritty reads (see ``_conf_dir``; normally ``~/.config/alacritty``). It is a

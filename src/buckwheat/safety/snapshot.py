@@ -1,6 +1,6 @@
 """Snapshots: copy files before a write, restore them on rollback.
 
-Layout (design.md 5.1), under ``state_dir()/snapshots/<UTC-timestamp>-<request_id>/``::
+Layout, under ``state_dir()/snapshots/<UTC-timestamp>-<request_id>/``::
 
     meta.json     files, sha256 before/after, plan JSON, state, revert_deadline
     files/<n>     byte copy of the n-th file as it was before the change

@@ -1,11 +1,11 @@
-"""The bootstrap edit check (design.md section 5.4).
+"""The bootstrap edit check.
 
 The user's main config is writable only for buckwheat's marked include block.
 ``check_include_edit`` compares the old and new text of such a file and raises
 unless they differ by exactly one inserted or removed marker block, so an
 adapter bug cannot touch anything the user wrote.
 
-One exception (design.md section 3.2): alacritty may append its entry to an
+One exception: alacritty may append its entry to an
 existing one-line ``import = [...]`` array. Callers pass that entry as
 ``array_entry`` to allow exactly that edit (or its undo) and nothing else.
 """

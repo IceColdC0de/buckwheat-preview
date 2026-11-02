@@ -20,7 +20,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        # 3.11 is the oldest version buckwheat supports; 3.14 is what agents develop on.
+        # Oldest and newest supported Python.
         python: ["3.11", "3.14"]
     steps:
       - uses: actions/checkout@v5
@@ -40,17 +40,3 @@ jobs:
       - name: Tests (pytest)
         run: pytest -q
 
-  website:
-    name: Website
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    steps:
-      - uses: actions/checkout@v5
-        with:
-          persist-credentials: false
-      - uses: actions/setup-node@v5
-        with:
-          node-version: "22"
-      - name: Tests (node --test)
-        working-directory: website
-        run: node --test

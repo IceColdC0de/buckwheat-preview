@@ -1,4 +1,4 @@
-"""waybar adapter (design.md section 3.4).
+"""waybar adapter.
 
 Managed files: ``buckwheat.jsonc`` (pulled in by an ``"include"`` entry in the
 user's config) and ``buckwheat.css`` (pulled in by an ``@import`` at the end of

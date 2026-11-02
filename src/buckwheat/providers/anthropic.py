@@ -1,4 +1,4 @@
-"""Anthropic provider: tool use (design.md section 4). Registered as
+"""Anthropic provider: tool use. Registered as
 "anthropic".
 
 The model is told to answer only by calling the single tool `submit_plan`,

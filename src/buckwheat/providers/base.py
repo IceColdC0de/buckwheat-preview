@@ -1,4 +1,4 @@
-"""Provider protocol and error family (design.md section 4).
+"""Provider protocol and error family.
 
 The interface assumes no HTTP, API key or model: auth and transport live
 inside each provider, built from its own config table.
