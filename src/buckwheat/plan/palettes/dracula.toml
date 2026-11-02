@@ -1,0 +1,38 @@
+name = "dracula"
+description = "Dark theme with vivid purple, pink and green accents"
+default_variant = "default"
+
+[variants.default]
+dark = true
+
+[variants.default.colors]
+bg = "#282a36"
+bg_alt = "#21222c"
+surface = "#44475a"
+fg = "#f8f8f2"
+fg_dim = "#6272a4"
+accent = "#bd93f9"
+accent_alt = "#ff79c6"
+warning = "#f1fa8c"
+error = "#ff5555"
+cursor = "#f8f8f2"
+selection_bg = "#44475a"
+selection_fg = "#f8f8f2"
+
+[variants.default.ansi]
+black = "#21222c"
+red = "#ff5555"
+green = "#50fa7b"
+yellow = "#f1fa8c"
+blue = "#bd93f9"
+magenta = "#ff79c6"
+cyan = "#8be9fd"
+white = "#f8f8f2"
+bright_black = "#6272a4"
+bright_red = "#ff6e6e"
+bright_green = "#69ff94"
+bright_yellow = "#ffffa5"
+bright_blue = "#d6acff"
+bright_magenta = "#ff92df"
+bright_cyan = "#a4ffff"
+bright_white = "#ffffff"

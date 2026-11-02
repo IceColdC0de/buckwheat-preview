@@ -1,0 +1,21 @@
+{
+  "name": "buckwheat-website",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Official website for Buckwheat: A wholesome grain for your Linux desktop",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m http.server 8080 -d .",
+    "test": "node --test"
+  },
+  "keywords": [
+    "buckwheat",
+    "linux",
+    "hyprland",
+    "waybar",
+    "ricing",
+    "dotfiles"
+  ],
+  "author": "Buckwheat Maintainers",
+  "license": "MIT"
+}

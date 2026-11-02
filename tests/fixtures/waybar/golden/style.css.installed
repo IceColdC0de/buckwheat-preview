@@ -1,0 +1,11 @@
+* {
+  border: none;
+}
+
+window#waybar {
+  background: #222222;
+}
+
+/* # >>> buckwheat (managed include) >>> */
+@import url("buckwheat.css");
+/* # <<< buckwheat <<< */

@@ -1,0 +1,38 @@
+name = "nord"
+description = "Arctic, north-bluish palette"
+default_variant = "default"
+
+[variants.default]
+dark = true
+
+[variants.default.colors]
+bg = "#2e3440"
+bg_alt = "#3b4252"
+surface = "#434c5e"
+fg = "#d8dee9"
+fg_dim = "#4c566a"
+accent = "#88c0d0"
+accent_alt = "#81a1c1"
+warning = "#ebcb8b"
+error = "#bf616a"
+cursor = "#d8dee9"
+selection_bg = "#4c566a"
+selection_fg = "#eceff4"
+
+[variants.default.ansi]
+black = "#3b4252"
+red = "#bf616a"
+green = "#a3be8c"
+yellow = "#ebcb8b"
+blue = "#81a1c1"
+magenta = "#b48ead"
+cyan = "#88c0d0"
+white = "#e5e9f0"
+bright_black = "#4c566a"
+bright_red = "#bf616a"
+bright_green = "#a3be8c"
+bright_yellow = "#ebcb8b"
+bright_blue = "#81a1c1"
+bright_magenta = "#b48ead"
+bright_cyan = "#8fbcbb"
+bright_white = "#eceff4"

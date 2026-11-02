@@ -1,0 +1,6 @@
+// my bar
+/* multi
+ line */
+{
+  "modules-right": ["clock"]
+}

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" fill="none">
+  <!-- Buckwheat Sprig Official Emblem -->
+  <!-- Stalk -->
+  <path d="M60 110 V25" stroke="#8C5835" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Left Spade/Heart Leaf -->
+  <path d="M59 65 C40 60 25 45 35 25 C45 20 55 35 59 45 Z" 
+        fill="#8F9E8B" fill-opacity="0.9" stroke="#EBDCB9" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- Leaf vein -->
+  <path d="M59 55 Q45 42 38 30" stroke="#201E1C" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Right Leaflet -->
+  <path d="M61 52 C75 48 88 38 82 22 C72 18 64 30 61 38 Z" 
+        fill="#8F9E8B" fill-opacity="0.75" stroke="#EBDCB9" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M61 45 Q70 35 77 26" stroke="#201E1C" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Faceted Groat Seeds (Tetrahedral pyramid achenes) -->
+  <!-- Top Central Groat -->
+  <g transform="translate(60, 24)">
+    <!-- Left facet (shadow) -->
+    <polygon points="0,-14 -9,2 0,6" fill="#8C5835"/>
+    <!-- Right facet (mid-tone gold) -->
+    <polygon points="0,-14 9,2 0,6" fill="#E0A96D"/>
+    <!-- Central ridge highlight -->
+    <polyline points="0,-14 0,6" stroke="#EBDCB9" stroke-width="1"/>
+  </g>
+
+  <!-- Left Groat Cluster -->
+  <g transform="translate(48, 42) rotate(-18)">
+    <polygon points="0,-11 -7,2 0,5" fill="#8C5835"/>
+    <polygon points="0,-11 7,2 0,5" fill="#E0A96D"/>
+    <polyline points="0,-11 0,5" stroke="#EBDCB9" stroke-width="0.8"/>
+  </g>
+
+  <!-- Right Groat Cluster -->
+  <g transform="translate(72, 40) rotate(22)">
+    <polygon points="0,-11 -7,2 0,5" fill="#C86452"/>
+    <polygon points="0,-11 7,2 0,5" fill="#E0A96D"/>
+    <polyline points="0,-11 0,5" stroke="#EBDCB9" stroke-width="0.8"/>
+  </g>
+
+  <!-- Lower Right Groat -->
+  <g transform="translate(68, 62) rotate(35)">
+    <polygon points="0,-10 -6,2 0,5" fill="#8C5835"/>
+    <polygon points="0,-10 6,2 0,5" fill="#E0A96D"/>
+    <polyline points="0,-10 0,5" stroke="#EBDCB9" stroke-width="0.8"/>
+  </g>
+
+  <!-- Small Sprout Node at Base -->
+  <circle cx="60" cy="95" r="2" fill="#E0A96D"/>
+</svg>

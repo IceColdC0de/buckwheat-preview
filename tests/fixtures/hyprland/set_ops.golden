@@ -1,0 +1,16 @@
+# Managed by buckwheat. Edits are overwritten. Remove with: buckwheat uninstall <target>
+general {
+    gaps_in = 4
+    col.active_border = rgba(88c0d0ff)
+}
+decoration {
+    rounding = 10
+    active_opacity = 0.95
+    blur {
+        enabled = true
+        size = 3
+    }
+}
+animations {
+    enabled = false
+}

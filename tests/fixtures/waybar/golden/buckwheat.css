@@ -1,0 +1,18 @@
+/* Managed by buckwheat. Edits are overwritten. Remove with: buckwheat uninstall <target> */
+@define-color bg #2e3440;
+@define-color bg_alt #3b4252;
+@define-color surface #434c5e;
+@define-color fg #d8dee9;
+@define-color fg_dim #4c566a;
+@define-color accent #88c0d0;
+@define-color accent_alt #81a1c1;
+@define-color warning #ebcb8b;
+@define-color error #bf616a;
+* {
+  font-family: "JetBrains Mono";
+  font-size: 12px;
+}
+window#waybar {
+  background-color: @bg;
+  color: @fg;
+}

@@ -1,0 +1,18 @@
+[general]
+live_config_reload = true
+
+[font]
+size = 11.5
+
+[font.normal]
+family = "Iosevka"
+style = "Regular"
+
+[window]
+opacity = 0.9
+
+[colors.primary]
+background = "#101010"
+
+[colors.cursor]
+cursor = "#ff0000"

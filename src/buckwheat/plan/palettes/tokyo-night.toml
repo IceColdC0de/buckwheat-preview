@@ -1,0 +1,108 @@
+name = "tokyo-night"
+description = "Clean dark theme inspired by Tokyo city lights (night, storm, day)"
+default_variant = "night"
+
+[variants.night]
+dark = true
+
+[variants.night.colors]
+bg = "#1a1b26"
+bg_alt = "#16161e"
+surface = "#292e42"
+fg = "#c0caf5"
+fg_dim = "#a9b1d6"
+accent = "#7aa2f7"
+accent_alt = "#bb9af7"
+warning = "#e0af68"
+error = "#f7768e"
+cursor = "#c0caf5"
+selection_bg = "#283457"
+selection_fg = "#c0caf5"
+
+[variants.night.ansi]
+black = "#15161e"
+red = "#f7768e"
+green = "#9ece6a"
+yellow = "#e0af68"
+blue = "#7aa2f7"
+magenta = "#bb9af7"
+cyan = "#7dcfff"
+white = "#a9b1d6"
+bright_black = "#414868"
+bright_red = "#ff899d"
+bright_green = "#9fe044"
+bright_yellow = "#faba4a"
+bright_blue = "#8db0ff"
+bright_magenta = "#c7a9ff"
+bright_cyan = "#a4daff"
+bright_white = "#c0caf5"
+
+[variants.storm]
+dark = true
+
+[variants.storm.colors]
+bg = "#24283b"
+bg_alt = "#1f2335"
+surface = "#292e42"
+fg = "#c0caf5"
+fg_dim = "#a9b1d6"
+accent = "#7aa2f7"
+accent_alt = "#bb9af7"
+warning = "#e0af68"
+error = "#f7768e"
+cursor = "#c0caf5"
+selection_bg = "#2e3c64"
+selection_fg = "#c0caf5"
+
+[variants.storm.ansi]
+black = "#1d202f"
+red = "#f7768e"
+green = "#9ece6a"
+yellow = "#e0af68"
+blue = "#7aa2f7"
+magenta = "#bb9af7"
+cyan = "#7dcfff"
+white = "#a9b1d6"
+bright_black = "#414868"
+bright_red = "#ff899d"
+bright_green = "#9fe044"
+bright_yellow = "#faba4a"
+bright_blue = "#8db0ff"
+bright_magenta = "#c7a9ff"
+bright_cyan = "#a4daff"
+bright_white = "#c0caf5"
+
+[variants.day]
+dark = false
+
+[variants.day.colors]
+bg = "#e1e2e7"
+bg_alt = "#d0d5e3"
+surface = "#c4c8da"
+fg = "#3760bf"
+fg_dim = "#6172b0"
+accent = "#2e7de9"
+accent_alt = "#9854f1"
+warning = "#8c6c3e"
+error = "#f52a65"
+cursor = "#3760bf"
+selection_bg = "#b7c1e3"
+selection_fg = "#3760bf"
+
+[variants.day.ansi]
+black = "#b4b5b9"
+red = "#f52a65"
+green = "#587539"
+yellow = "#8c6c3e"
+blue = "#2e7de9"
+magenta = "#9854f1"
+cyan = "#007197"
+white = "#6172b0"
+bright_black = "#a1a6c5"
+bright_red = "#ff4774"
+bright_green = "#5c8524"
+bright_yellow = "#a27629"
+bright_blue = "#358aff"
+bright_magenta = "#a463ff"
+bright_cyan = "#007ea8"
+bright_white = "#3760bf"

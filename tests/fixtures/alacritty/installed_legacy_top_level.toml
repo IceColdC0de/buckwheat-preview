@@ -1,0 +1,7 @@
+# >>> buckwheat (managed include) >>>
+import = ["~/.config/alacritty/buckwheat.toml"]
+# <<< buckwheat <<<
+live_config_reload = true
+
+[window]
+decorations = "none"

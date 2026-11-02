@@ -1,0 +1,143 @@
+name = "catppuccin"
+description = "Soothing pastel theme (latte, frappe, macchiato, mocha)"
+default_variant = "mocha"
+
+[variants.latte]
+dark = false
+
+[variants.latte.colors]
+bg = "#eff1f5"
+bg_alt = "#e6e9ef"
+surface = "#ccd0da"
+fg = "#4c4f69"
+fg_dim = "#6c6f85"
+accent = "#1e66f5"
+accent_alt = "#8839ef"
+warning = "#df8e1d"
+error = "#d20f39"
+cursor = "#dc8a78"
+selection_bg = "#acb0be"
+selection_fg = "#4c4f69"
+
+[variants.latte.ansi]
+black = "#5c5f77"
+red = "#d20f39"
+green = "#40a02b"
+yellow = "#df8e1d"
+blue = "#1e66f5"
+magenta = "#ea76cb"
+cyan = "#179299"
+white = "#acb0be"
+bright_black = "#6c6f85"
+bright_red = "#d20f39"
+bright_green = "#40a02b"
+bright_yellow = "#df8e1d"
+bright_blue = "#1e66f5"
+bright_magenta = "#ea76cb"
+bright_cyan = "#179299"
+bright_white = "#bcc0cc"
+
+[variants.frappe]
+dark = true
+
+[variants.frappe.colors]
+bg = "#303446"
+bg_alt = "#292c3c"
+surface = "#414559"
+fg = "#c6d0f5"
+fg_dim = "#a5adce"
+accent = "#8caaee"
+accent_alt = "#ca9ee6"
+warning = "#e5c890"
+error = "#e78284"
+cursor = "#f2d5cf"
+selection_bg = "#626880"
+selection_fg = "#c6d0f5"
+
+[variants.frappe.ansi]
+black = "#51576d"
+red = "#e78284"
+green = "#a6d189"
+yellow = "#e5c890"
+blue = "#8caaee"
+magenta = "#f4b8e4"
+cyan = "#81c8be"
+white = "#b5bfe2"
+bright_black = "#626880"
+bright_red = "#e78284"
+bright_green = "#a6d189"
+bright_yellow = "#e5c890"
+bright_blue = "#8caaee"
+bright_magenta = "#f4b8e4"
+bright_cyan = "#81c8be"
+bright_white = "#a5adce"
+
+[variants.macchiato]
+dark = true
+
+[variants.macchiato.colors]
+bg = "#24273a"
+bg_alt = "#1e2030"
+surface = "#363a4f"
+fg = "#cad3f5"
+fg_dim = "#a5adcb"
+accent = "#8aadf4"
+accent_alt = "#c6a0f6"
+warning = "#eed49f"
+error = "#ed8796"
+cursor = "#f4dbd6"
+selection_bg = "#5b6078"
+selection_fg = "#cad3f5"
+
+[variants.macchiato.ansi]
+black = "#494d64"
+red = "#ed8796"
+green = "#a6da95"
+yellow = "#eed49f"
+blue = "#8aadf4"
+magenta = "#f5bde6"
+cyan = "#8bd5ca"
+white = "#b8c0e0"
+bright_black = "#5b6078"
+bright_red = "#ed8796"
+bright_green = "#a6da95"
+bright_yellow = "#eed49f"
+bright_blue = "#8aadf4"
+bright_magenta = "#f5bde6"
+bright_cyan = "#8bd5ca"
+bright_white = "#a5adcb"
+
+[variants.mocha]
+dark = true
+
+[variants.mocha.colors]
+bg = "#1e1e2e"
+bg_alt = "#181825"
+surface = "#313244"
+fg = "#cdd6f4"
+fg_dim = "#a6adc8"
+accent = "#89b4fa"
+accent_alt = "#cba6f7"
+warning = "#f9e2af"
+error = "#f38ba8"
+cursor = "#f5e0dc"
+selection_bg = "#585b70"
+selection_fg = "#cdd6f4"
+
+[variants.mocha.ansi]
+black = "#45475a"
+red = "#f38ba8"
+green = "#a6e3a1"
+yellow = "#f9e2af"
+blue = "#89b4fa"
+magenta = "#f5c2e7"
+cyan = "#94e2d5"
+white = "#bac2de"
+bright_black = "#585b70"
+bright_red = "#f38ba8"
+bright_green = "#a6e3a1"
+bright_yellow = "#f9e2af"
+bright_blue = "#89b4fa"
+bright_magenta = "#f5c2e7"
+bright_cyan = "#94e2d5"
+bright_white = "#a6adc8"

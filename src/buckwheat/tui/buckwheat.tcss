@@ -1,0 +1,238 @@
+/* ==========================================================================
+   BUCKWHEAT TUI STYLESHEET
+   Warm Earth & Grain Aesthetic
+   ========================================================================== */
+
+/* Design Tokens */
+$groat-gold: #E0A96D;
+$parchment: #EBDCB9;
+$roasted-husk: #8C5835;
+$sprout-sage: #8F9E8B;
+$hearth-red: #C86452;
+$roasted-soil: #201E1C;
+$toasted-surface: #2B2825;
+$panel-bg: #34302C;
+$milled-flour: #F7F4EE;
+$muted-grain: #A89F91;
+
+/* --------------------------------------------------------------------------
+   Root & Layout
+   -------------------------------------------------------------------------- */
+Screen {
+    background: $roasted-soil;
+    color: $milled-flour;
+}
+
+/* --------------------------------------------------------------------------
+   Header & Brand Emblem
+   -------------------------------------------------------------------------- */
+#header-container {
+    height: auto;
+    width: 100%;
+    align-horizontal: center;
+    padding: 1 2;
+}
+
+#brand-emblem {
+    color: $groat-gold;
+    text-style: bold;
+    height: auto;
+    content-align: center middle;
+}
+
+#brand-tagline {
+    color: $parchment;
+    text-style: italic;
+    content-align: center middle;
+    margin-top: 1;
+}
+
+/* --------------------------------------------------------------------------
+   Prompt & Input Area
+   -------------------------------------------------------------------------- */
+#prompt-card {
+    background: $toasted-surface;
+    border: round $roasted-husk;
+    padding: 1 2;
+    margin: 1 2;
+    height: auto;
+}
+
+#prompt-card:focus-within {
+    border: round $groat-gold;
+}
+
+#prompt-label {
+    color: $parchment;
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+Input {
+    background: $roasted-soil;
+    border: none;
+    color: $milled-flour;
+    padding: 0 1;
+}
+
+Input:focus {
+    border: none;
+    background: $panel-bg;
+}
+
+/* --------------------------------------------------------------------------
+   Diff Viewer
+   -------------------------------------------------------------------------- */
+#diff-card {
+    background: $toasted-surface;
+    border: solid $roasted-husk;
+    margin: 1 2;
+    padding: 1;
+    height: 1fr;
+}
+
+.diff-header {
+    color: $groat-gold;
+    text-style: bold;
+    border-bottom: solid $roasted-husk;
+    padding-bottom: 1;
+    margin-bottom: 1;
+}
+
+.diff-addition {
+    color: $sprout-sage;
+    background: #252e25;
+}
+
+.diff-deletion {
+    color: $hearth-red;
+    background: #312120;
+}
+
+.diff-context {
+    color: $muted-grain;
+}
+
+/* --------------------------------------------------------------------------
+   Safety & Rollback Countdown Bar
+   -------------------------------------------------------------------------- */
+#revert-bar {
+    background: $panel-bg;
+    border: solid $groat-gold;
+    color: $parchment;
+    padding: 0 1;
+    margin: 1 2;
+    height: 3;
+    content-align: center middle;
+}
+
+#revert-timer {
+    color: $groat-gold;
+    text-style: bold;
+}
+
+/* --------------------------------------------------------------------------
+   Buttons & Controls
+   -------------------------------------------------------------------------- */
+Button {
+    background: $toasted-surface;
+    color: $milled-flour;
+    border: tall $roasted-husk;
+    min-width: 14;
+    height: 3;
+}
+
+Button:hover {
+    background: $roasted-husk;
+    color: $parchment;
+}
+
+Button.primary {
+    background: $groat-gold;
+    color: $roasted-soil;
+    text-style: bold;
+    border: tall $parchment;
+}
+
+Button.primary:hover {
+    background: $parchment;
+    color: $roasted-soil;
+}
+
+Button.danger {
+    background: $hearth-red;
+    color: $milled-flour;
+    border: tall #8a3022;
+}
+
+Button.danger:hover {
+    background: #e0725e;
+}
+
+/* --------------------------------------------------------------------------
+   Screens added in M12
+   -------------------------------------------------------------------------- */
+.button-row {
+    height: auto;
+    margin: 0 2;
+    align-horizontal: right;
+}
+
+.button-row Button {
+    margin-left: 1;
+}
+
+.op-line {
+    color: $milled-flour;
+}
+
+.op-warning {
+    color: $hearth-red;
+    margin-top: 1;
+}
+
+#diff-body {
+    margin-top: 1;
+}
+
+ErrorScreen, ConfirmScreen, LeftBehindScreen {
+    align: center middle;
+    background: $roasted-soil 70%;
+}
+
+#error-card {
+    width: 70%;
+    max-width: 90;
+    height: auto;
+    background: $panel-bg;
+    border: round $hearth-red;
+    padding: 1 2;
+}
+
+ConfirmScreen #error-card, LeftBehindScreen #error-card {
+    border: round $groat-gold;
+}
+
+.error-reason {
+    color: $milled-flour;
+}
+
+#request-status {
+    color: $muted-grain;
+    height: auto;
+}
+
+#revert-help {
+    margin: 1 2;
+    color: $parchment;
+}
+
+#history-table {
+    margin: 1 2;
+    height: 1fr;
+}
+
+#history-empty {
+    margin: 0 2;
+    color: $muted-grain;
+}

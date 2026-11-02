@@ -1,0 +1,6 @@
+[window]
+decorations = "none"
+# >>> buckwheat (managed include) >>>
+[general]
+import = ["~/.config/alacritty/buckwheat.toml"]
+# <<< buckwheat <<<

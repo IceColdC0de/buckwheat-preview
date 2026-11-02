@@ -1,0 +1,7 @@
+* {
+  border: none;
+}
+
+window#waybar {
+  background: #222222;
+}

@@ -1,0 +1,28 @@
+-- Managed by buckwheat. Edits are overwritten. Remove with: buckwheat uninstall <target>
+hl.config({
+    general = {
+        gaps_out = { top = 10, right = 20, bottom = 10, left = 20 },
+        border_size = 3,
+        col = {
+            active_border = { colors = { "rgb(88c0d0)", "rgb(b48ead)" }, angle = 45 },
+        },
+    },
+    decoration = {
+        dim_inactive = true,
+        dim_strength = 0.3,
+        blur = {
+            passes = 3,
+        },
+        shadow = {
+            enabled = true,
+            offset = { 2, 3 },
+            range = 20,
+        },
+    },
+    group = {
+        groupbar = {
+            font_size = 12,
+            font_weight_active = "bold",
+        },
+    },
+})

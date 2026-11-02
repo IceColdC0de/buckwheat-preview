@@ -1,0 +1,9 @@
+# my alacritty config
+[env]
+TERM = "xterm-256color"
+
+[window]
+decorations = "none"
+
+[scrolling]
+history = 10000

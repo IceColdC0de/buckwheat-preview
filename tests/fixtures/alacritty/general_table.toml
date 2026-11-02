@@ -1,0 +1,5 @@
+[general]
+live_config_reload = true # keep this
+
+[window]
+decorations = "none"

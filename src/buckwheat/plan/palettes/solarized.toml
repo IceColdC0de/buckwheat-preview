@@ -1,0 +1,73 @@
+name = "solarized"
+description = "Precision-balanced low-contrast palette (dark, light)"
+default_variant = "dark"
+
+[variants.dark]
+dark = true
+
+[variants.dark.colors]
+bg = "#002b36"
+bg_alt = "#073642"
+surface = "#073642"
+fg = "#839496"
+fg_dim = "#586e75"
+accent = "#268bd2"
+accent_alt = "#d33682"
+warning = "#b58900"
+error = "#dc322f"
+cursor = "#93a1a1"
+selection_bg = "#073642"
+selection_fg = "#93a1a1"
+
+[variants.dark.ansi]
+black = "#073642"
+red = "#dc322f"
+green = "#859900"
+yellow = "#b58900"
+blue = "#268bd2"
+magenta = "#d33682"
+cyan = "#2aa198"
+white = "#eee8d5"
+bright_black = "#002b36"
+bright_red = "#cb4b16"
+bright_green = "#586e75"
+bright_yellow = "#657b83"
+bright_blue = "#839496"
+bright_magenta = "#6c71c4"
+bright_cyan = "#93a1a1"
+bright_white = "#fdf6e3"
+
+[variants.light]
+dark = false
+
+[variants.light.colors]
+bg = "#fdf6e3"
+bg_alt = "#eee8d5"
+surface = "#eee8d5"
+fg = "#657b83"
+fg_dim = "#93a1a1"
+accent = "#268bd2"
+accent_alt = "#d33682"
+warning = "#b58900"
+error = "#dc322f"
+cursor = "#586e75"
+selection_bg = "#eee8d5"
+selection_fg = "#586e75"
+
+[variants.light.ansi]
+black = "#073642"
+red = "#dc322f"
+green = "#859900"
+yellow = "#b58900"
+blue = "#268bd2"
+magenta = "#d33682"
+cyan = "#2aa198"
+white = "#eee8d5"
+bright_black = "#002b36"
+bright_red = "#cb4b16"
+bright_green = "#586e75"
+bright_yellow = "#657b83"
+bright_blue = "#839496"
+bright_magenta = "#6c71c4"
+bright_cyan = "#93a1a1"
+bright_white = "#fdf6e3"
